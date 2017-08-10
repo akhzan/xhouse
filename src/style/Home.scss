@@ -1,3 +1,29 @@
+@import 'Global.scss';
+
 .home {
-	background-color: red;
+}
+
+.home-header-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.home-header {
+	width: 70%;
+}
+
+.home-name {
+	font-size: 3em;
+	font-weight: 500;
+	color: $primary-color;
+}
+
+.home-desc {
+	font-size: 2em;
+	width: 100%;
+	@include respond-to(large) { 
+		width: 60% ;
+	}
 }
