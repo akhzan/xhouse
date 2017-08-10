@@ -31,7 +31,8 @@ class Header extends Component {
           </nav>
           <button className="header-expander" onClick={this.expandMenu}><MdExpandMore /></button>
         </div>
-        <Drawer anchor="top"
+        <Drawer 
+          anchor="top"
           open={this.state.open}
           onRequestClose={this.expandMenu}
           ignoreBackdropClick={false}
