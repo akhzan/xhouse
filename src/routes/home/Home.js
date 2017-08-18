@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { MdSearch } from 'react-icons/lib/md';
+import TextField from 'material-ui/TextField';
 
 class Home extends Component {
   render() {
@@ -10,8 +11,28 @@ class Home extends Component {
 	      		<div className="home-name">Babubnb</div>
 	      		<div className="home-desc">Sewa babu-babu profesional untuk setiap pekerjaan dan kendala anda</div>
 	      		<div className="home-search">
-	      			<div className="home-search-var border-right"></div>
-	      			<div className="home-search-var border-right"></div>
+	      			<div className="home-search-var border-right">
+	      				<div className="home-search-item">
+		      				<TextField
+					          id="swhere"
+					          label="Dimana saja"
+					          className="home-search-input"
+					        />
+				        </div>
+	      			</div>
+	      			<div className="home-search-var border-right">
+	      				<div className="home-search-item">
+		      				<TextField
+					          id="date"
+					          label="Kapan saja"
+					          type="date"
+					          className="home-search-input"
+					          InputLabelProps={{
+					            shrink: true,
+					          }}
+					        />
+				        </div>
+	      			</div>
 	      			<div className="home-search-var home-search-var-with-button">
 	      				<div></div>
 	      				<div className="home-search-btn-container">

@@ -43,7 +43,7 @@ class Header extends Component {
             </div>
             <div className="header-drawer-content-container">
               <div className="header-drawer-content">
-                <a href="#" onClick={this.expandMenu.bind(this)}><div className="header-drawer-nav">Beranda</div></a>
+                <a href="/" onClick={this.expandMenu.bind(this)}><div className="header-drawer-nav">Beranda</div></a>
                 <a><div className="header-drawer-nav">Manjadi Babu</div></a>
                 <a><div className="header-drawer-nav">Daftar</div></a>
                 <a><div className="header-drawer-nav">Masuk</div></a>
