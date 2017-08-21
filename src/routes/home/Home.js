@@ -34,7 +34,15 @@ class Home extends Component {
 				        </div>
 	      			</div>
 	      			<div className="home-search-var home-search-var-with-button">
-	      				<div></div>
+	      				<div className="home-search-item">
+	      					<TextField
+					          id="num"
+					          label="Siapa saja"
+					          type="number"
+					          className="home-search-input"
+					          onChange={event => if(event.target.value < 0) event.target.value = 0 })}
+					        />
+	      				</div>
 	      				<div className="home-search-btn-container">
 	      					<button className="home-search-btn"><MdSearch /></button>
 	      				</div>
