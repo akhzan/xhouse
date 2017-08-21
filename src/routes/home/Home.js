@@ -40,7 +40,6 @@ class Home extends Component {
 					          label="Siapa saja"
 					          type="number"
 					          className="home-search-input"
-					          onChange={event => if(event.target.value < 0) event.target.value = 0 })}
 					        />
 	      				</div>
 	      				<div className="home-search-btn-container">
