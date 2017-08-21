@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { MdSearch } from 'react-icons/lib/md';
 import TextField from 'material-ui/TextField';
+import Navigation from '../../components/navigation/Navigation';
+import MiniCardCollection from '../../components/miniCardCollection/MiniCardCollection';
 
 class Home extends Component {
   render() {
@@ -46,6 +48,9 @@ class Home extends Component {
 	      					<button className="home-search-btn"><MdSearch /></button>
 	      				</div>
 	      			</div>
+	      		</div>
+	      		<div className="home-content-navigation">
+	      			<Navigation tab1={<MiniCardCollection></MiniCardCollection>} tab2="<Tab label='Item Two' />"></Navigation>
 	      		</div>
 	      	</div>
 	      </div>
