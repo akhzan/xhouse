@@ -15,7 +15,7 @@ class Navigation extends Component {
 	};
 
 	render() {
-		const { tab1, tab2 } = this.props;
+		const { tab1, tab2, tab3 } = this.props;
 	return (
 	  <div className="navigation">
 	  	<div className="navigation-bar">
@@ -27,7 +27,9 @@ class Navigation extends Component {
 	      </Tabs>
 	    </AppBar>
 	    </div>
-	    {tab1}
+	    { this.state.value === 0 && tab1}
+	    { this.state.value === 1 && tab2}
+	    {this.state.value === 2 && tab3}
 	  </div>
 	);
 	}

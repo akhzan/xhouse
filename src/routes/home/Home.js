@@ -50,7 +50,12 @@ class Home extends Component {
 	      			</div>
 	      		</div>
 	      		<div className="home-content-navigation">
-	      			<Navigation tab1={<MiniCardCollection></MiniCardCollection>} tab2="<Tab label='Item Two' />"></Navigation>
+	      			<Navigation 
+	      				tab1={<MiniCardCollection title="Destinasi"></MiniCardCollection>} 
+	      				tab2={<MiniCardCollection title="Populer"></MiniCardCollection>}
+	      				tab3={<MiniCardCollection title="Promo"></MiniCardCollection>}
+      				>
+      				</Navigation>
 	      		</div>
 	      	</div>
 	      </div>
