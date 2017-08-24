@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { TiSocialInstagram, TiSocialTwitter, TiSocialFacebook } from 'react-icons/lib/ti'
 
 class Footer extends Component {
 	constructor() {
@@ -17,6 +18,8 @@ class Footer extends Component {
 	  					<li><a href="#">Tentang kami</a></li>
 	  					<li><a href="#">Karir</a></li>
 	  					<li><a href="#">Kontak</a></li>
+	  					<li><a href="#">Ketentuan</a></li>
+	  					<li><a href="#">Privasi</a></li>
 	  				</ul>
 	  			</div>
 	  			<div className="footer-item">
@@ -49,6 +52,11 @@ class Footer extends Component {
 	  		<div className="footer-logo-container">
 	  			<div className="footer-logo">
 	  				<div>&copy; Babubnb</div>
+	  			</div>
+	  			<div className="footer-socmed">
+	  				<a href="#"><TiSocialFacebook /></a>
+	  				<a href="#"><TiSocialTwitter /></a>
+	  				<a href="#"><TiSocialInstagram /></a>
 	  			</div>
 	  		</div>
 	  	</div>	  	
