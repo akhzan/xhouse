@@ -10,6 +10,13 @@
 		font-weight: bold;
 		font-size: 1.2em;
 	}
+
+	button {
+		background: none;
+		border: 0;
+		cursor: pointer;
+		padding: 0;
+	}
 }
 
 .miniCardCollection-content {

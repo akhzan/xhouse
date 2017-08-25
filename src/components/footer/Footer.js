@@ -29,8 +29,8 @@ class Footer extends Component {
 	  					<li><a href="#">Populer</a></li>
 	  					<li><a href="#">Promo</a></li>
 	  					<li><a href="#">Prewedding/Wedding</a></li>
-	  					<li><a href="#">Commerce</a></li>
-	  					<li><a href="#">Holiday</a></li>
+	  					<li><a href="#">Komersil</a></li>
+	  					<li><a href="#">Liburan</a></li>
 	  				</ul>
 	  			</div>
 	  			<div className="footer-item">

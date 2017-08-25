@@ -52,7 +52,12 @@ class Home extends Component {
 	      		<div className="home-content-navigation">
 	      			<Navigation 
 	      				tab1={<MiniCardCollection title="Destinasi"></MiniCardCollection>} 
+	      				tab1a={<MiniCardCollection title="Wisata Pantai Indah Indonesia"></MiniCardCollection>} 
+	      				tab1b={<MiniCardCollection title="Wisata Gunung Indonesia"></MiniCardCollection>} 
 	      				tab2={<MiniCardCollection title="Populer"></MiniCardCollection>}
+	      				tab2a={<MiniCardCollection title="Prewedding/Wedding Populer"></MiniCardCollection>}
+	      				tab2b={<MiniCardCollection title="Komersil Populer"></MiniCardCollection>}
+	      				tab2c={<MiniCardCollection title="Liburan Populer"></MiniCardCollection>}
 	      				tab3={<MiniCardCollection title="Promo"></MiniCardCollection>}
       				>
       				</Navigation>

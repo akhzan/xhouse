@@ -15,7 +15,7 @@ class MiniCardCollection extends Component {
 	  <div className="miniCardCollection">
 	  	<div className="miniCardCollection-title">
 	  		<div className="miniCardCollection-title-bold">{title}</div>
-	  		<div>Lihat Semua</div>
+	  		<button><div>Lihat Semua</div></button>
 	  	</div>
 	  	<div className="miniCardCollection-content">
 	  		<div className="miniCardCollection-slider">
