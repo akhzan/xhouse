@@ -1,0 +1,74 @@
+.miniCardCollection {
+	padding: 20px 0;
+}
+
+.miniCardCollection-title {
+	display: flex;
+	justify-content: space-between;
+
+	.miniCardCollection-title-bold {
+		font-weight: bold;
+		font-size: 1.2em;
+	}
+
+	button {
+		background: none;
+		border: 0;
+		cursor: pointer;
+		padding: 0;
+	}
+}
+
+.miniCardCollection-content {
+	margin-top: 10px;
+	width: 100%;
+	overflow: scroll;
+
+	&::-webkit-scrollbar-track
+	{
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+		background-color: #F5F5F5;
+	}
+
+	&::-webkit-scrollbar
+	{
+		width: 0px;
+		height: 5px;
+		background-color: #F5F5F5;
+	}
+
+	&::-webkit-scrollbar-thumb
+	{
+		background-color: #C5C5C5;
+	}
+}
+
+.miniCardCollection-slider {
+	padding: 10px 0px;
+	margin-left: -5px;
+	width: 150%;
+	min-height: 60px;
+	display: flex;
+	justify-content: center;
+
+	* {
+		font-size: 0.9em;
+	}
+}
+
+.miniCardCollection-card {
+	width: calc(20% - 10px);
+	margin: 0 5px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.miniCardCollection-img {
+	width: 100%;
+}
+
+.miniCardCollection-card-title {
+	font-size: 1em;
+	font-weight: bold;
+}
