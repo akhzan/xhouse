@@ -7,7 +7,7 @@ class Showcase extends Component {
 
 	render() {
 		const { x } = this.props;
-		const img = { url:'https://a0.muscache.com/im/pictures/4913407/6ceaefb6_original.jpg'};
+		const img = { url:''};
 	return (
 	  	<div className="showcase">
 			<div className="showcase-content">
