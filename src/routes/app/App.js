@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import Header from '../../components/header/Header';
-import Home from '../home/Home';
 import Footer from '../../components/footer/Footer';
 
 class App extends Component {
+  constructor(props){
+    super(props);
+  }
   render() {
     return (
       <div className="App">
         <Header></Header>
-        <Home></Home>
+        <div>{this.props.children}</div>
         <Footer></Footer>
       </div>
     );
