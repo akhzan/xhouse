@@ -14,8 +14,8 @@ import {
 ReactDOM.render(
 	<Router>
 		<div>
-		<Route exact path='/' component={Home}/>
-		<Route path='/popular' component={Popular}/>
+			<Route exact path='/' component={Home}/>
+			<Route path='/popular/x' component={Popular}/>
 		</div>
 	</Router>
 	, document.getElementById('root')

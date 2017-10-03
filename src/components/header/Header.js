@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { MdExpandLess, MdExpandMore } from 'react-icons/lib/md';
 import Drawer from 'material-ui/Drawer';
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
   constructor(props) {
@@ -27,6 +28,7 @@ class Header extends Component {
               <li><button><span>Bantuan</span></button></li>
               <li><button><span>Daftar</span></button></li>
               <li><button><span>Masuk</span></button></li>
+              <Link to="/popular/x">brekele</Link>
             </ul>
           </nav>
           <button className="header-expander" onClick={this.expandMenu}><MdExpandMore /></button>
@@ -44,7 +46,7 @@ class Header extends Component {
             <div className="header-drawer-content-container">
               <div className="header-drawer-content">
                 <a href="/" onClick={this.expandMenu.bind(this)}><div className="header-drawer-nav">Beranda</div></a>
-                <a><div className="header-drawer-nav">Manjadi Babu</div></a>
+                <a><Link to="/popular"><div className="header-drawer-nav">Manjadi Babu</div></Link></a>
                 <a><div className="header-drawer-nav">Daftar</div></a>
                 <a><div className="header-drawer-nav">Masuk</div></a>
                 <a><div className="header-drawer-nav">Bantuan</div></a>
